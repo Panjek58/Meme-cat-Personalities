@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Cat Persona</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Starter Page -->
+        <div id="starter" class="page active">
+            <h2 class="starter-text">Meme cat seperti apa kamu?</h2>
+            <img src="aset/starter page.png" alt="Starter" class="starter-image">
+            <button class="start-btn" onclick="startQuiz()">Mulai Quiz</button>
+        </div>
+
+        <!-- Quiz Page -->
+        <div id="quiz" class="page">
+            <p class="progress-text" id="progressText">1 / 10</p>
+            <img src="" alt="Question" class="question-image" id="questionImage">
+            <p class="question-text" id="questionText"></p>
+            <div class="options" id="options"></div>
+        </div>
+
+        <!-- Result Page -->
+        <div id="result" class="page">
+            <img src="" alt="Result" class="result-image" id="resultImage">
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
